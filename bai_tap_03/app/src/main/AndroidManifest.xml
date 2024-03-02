@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Bai_tap_03"
+        tools:targetApi="31" >
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.Bai_tap_03" />
+        <activity
+            android:name=".BaiTap1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SeekBarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CustomButtonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressBar2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressBarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CheckBoxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ControlActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImageButtonActivity"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".ImageButtonActivity" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".RandomBackgroundActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BackgroundLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BaiTap2Activity"
+            android:exported="false" /> <!-- BackgroundLayoutActivity -->
+        <activity
+            android:name=".ImageViewActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

@@ -19,13 +19,13 @@
             android:name=".Bai5Activity"
             android:exported="false" />
         <activity
-            android:name=".Bai2Activity"
+            android:name=".Bai3Activity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".Bai3Activity"
+            android:name=".Bai2Activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
